@@ -60,14 +60,16 @@ body{
     left: 5%;
 }
 #background1{
-    background: url(/images/coding.png);
-    background-color: transparent;
+    background: url(images/layered-peaks-haikei.svg);
+    position: relative;
+    background-color: #101010;
     width: 100%;
     height: 1000px;
 }
 .backgroundtext{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #19bb4a;
     padding: 10px;
     border-radius: 12px;
     width: 66%;
