@@ -93,7 +93,7 @@ body{
     top: 49%;
     left: 12%;
     padding: 15px 35px 15px 35px;
-    font-size: 30px;
+    font-size: 1.8rem;
     background-color: #000;
     border: none;
     color: #fff;
@@ -185,14 +185,14 @@ body{
     width: 100%;
 }
 @media only screen and (max-width : 600px) {
-    .topbar a {
+    .logo{
         display: none;
     }
-    .topbar li {
-        display: none;
+    .topbar ul{
+        left: 0.5%;
     }
-    .topbar ul {
-        display: none;
+    .topbar a{
+        font-size: 1.2rem;
     }
     .textcontainer{
         left: 10%;
@@ -200,7 +200,14 @@ body{
     }
     .images{
         font-size: 6rem;
-        top: 55%;
+        top: 65%;
+    }
+    .backgroundtext{
+        font-size: 1rem;
+    }
+    #github{
+        top: 52%;
+        padding: 10px 25px 10px 25px;
     }
     
 }
