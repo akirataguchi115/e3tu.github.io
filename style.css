@@ -211,6 +211,15 @@ body{
     }
     
 }
+@media only screen and (max-height: 800px) {
+    .images{
+        top: 69%;
+    }
+    #github{
+        top: 55%;
+    }
+    
+}
  ::-webkit-scrollbar{
      width: 7px;
 }
