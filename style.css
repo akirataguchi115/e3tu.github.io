@@ -60,7 +60,7 @@ body{
     left: 5%;
 }
 #background1{
-    background: url(images/layered-peaks-haikei.svg);
+    background: url(images/coding.png);
     position: relative;
     background-color: #101010;
     width: 100%;
@@ -93,9 +93,9 @@ body{
     left: 12%;
     padding: 15px 35px 15px 35px;
     font-size: 30px;
-    background-color: #000;
+    background-color: #19bb4a;
     border: none;
-    color: white;
+    color: #fff;
     font-family: 'Anton', sans-serif;
     border-radius: 10px;
     text-decoration: none;
