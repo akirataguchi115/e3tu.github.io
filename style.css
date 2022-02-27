@@ -40,13 +40,13 @@ body{
 .topbar{
     height: 90px;
     width: 100%;
-    background-color: #000;
+    background-color: #191919;
     position: fixed;
     z-index: 1000;
 }
 .scroll{
     transition: 1.5s;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(25, 25, 25, 0.6);
 }
 .colored{
     background-color: #19bb4a;
@@ -76,7 +76,7 @@ body{
     left: 10%;
     top: 35%;
     color: #fff;
-    font-size: 35px;
+    font-size: 2.18rem;
 }
 .word{
     color: #19bb4a;
@@ -91,30 +91,15 @@ body{
     position: absolute;
     top: 50%;
     left: 12%;
-    padding: 15px 25px 15px 25px;
-    font-size: 25px;
-    background-color: #19bb4a;
+    padding: 15px 35px 15px 35px;
+    font-size: 30px;
+    background-color: #000;
     border: none;
     color: white;
     font-family: 'Anton', sans-serif;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 #github:hover{
-    opacity: 0.8;
-}
-#discord{
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    padding: 15px 25px 15px 25px;
-    font-size: 25px;
-    background-color: #19bb4a;
-    border: none;
-    color: #fff;
-    font-family: 'Anton', sans-serif;
-    border-radius: 15px;
-}
-#discord:hover{
     opacity: 0.8;
 }
 .aboutme{
@@ -132,8 +117,8 @@ body{
 .textcontainer{
     position: relative;
     left: 55%;
-    top: 12%;
-    width: 45vh;
+    top: 10%;
+    width: 35vh;
     height: 30vh;
 }
 .text{
@@ -151,27 +136,17 @@ body{
     position: absolute;
     display: inline-block;
     top: 20%;
-    left: 15%;
+    left: 12%;
+    font-size: 12em;
 }
-.html{
-    width: 13vh;
-    height: 13vh;
+.fa-html5{
+    color: #e34c26;
 }
-.css{
-    width: 13vh;
-    height: 13vh;
+.fa-css3-alt{
+    color: #2965f1;
 }
-.js{
-    width: 13vh;
-    height: 13vh;
-}
-.cs{
-    width: 13vh;
-    height: 13vh;
-}
-.linux{
-    width: 13vh;
-    height: 13vh;
+.fa-js{
+    color: #f0db4f;
 }
 .projects{
     position: relative;
@@ -206,6 +181,26 @@ body{
     position: relative;
     height: 500px;
     width: 100%;
+}
+@media only screen and (max-width : 600px) {
+    .topbar a {
+        display: none;
+    }
+    .topbar li {
+        display: none;
+    }
+    .topbar ul {
+        display: none;
+    }
+    .textcontainer{
+        left: 10%;
+        top: 10%;
+    }
+    .images{
+        font-size: 6rem;
+        top: 55%;
+    }
+    
 }
  ::-webkit-scrollbar{
      width: 7px;
