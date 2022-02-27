@@ -40,7 +40,7 @@ body{
 .topbar{
     height: 90px;
     width: 100%;
-    background-color: #191919;
+    background-color: #040404;
     position: fixed;
     z-index: 1000;
 }
@@ -98,6 +98,7 @@ body{
     color: white;
     font-family: 'Anton', sans-serif;
     border-radius: 10px;
+    text-decoration: none;
 }
 #github:hover{
     opacity: 0.8;
