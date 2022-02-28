@@ -118,9 +118,9 @@ body{
 }
 .textcontainer{
     position: relative;
-    left: 55%;
+    left: 35%;
     top: 10%;
-    width: 35vh;
+    width: 35vw;
     height: 30vh;
 }
 .text{
@@ -130,16 +130,12 @@ body{
     padding-left: 0.92vh;
     font-size: 2.18rem;
 }
+.text i{
+    font-size: 9.3rem;
+}
 .line{
     border: 1px solid #19bb4a;
     margin-top: 25px;
-}
-.images{
-    position: absolute;
-    display: inline-block;
-    top: 20%;
-    left: 12%;
-    font-size: 12em;
 }
 .fa-html5{
     color: #e34c26;
@@ -185,9 +181,15 @@ body{
     width: 100%;
 }
 @media only screen and (max-width : 600px) {
-    .topbar ul{
+    .logo{
         display: none;
-        align-items: center;
+    }
+    .topbar ul{
+        left: 0.5%;
+        display: none;
+    }
+    .topbar a{
+        font-size: 1.2rem;
     }
     .textcontainer{
         left: 10%;
@@ -203,35 +205,12 @@ body{
     .text i{
         font-size: 3rem;
     }
-    .images{
-        font-size: 6rem;
-        top: 65%;
-    }
     .backgroundtext{
         font-size: 1rem;
-        top: 25%;
     }
     #github{
-        top: 47%;
+        top: 52%;
         padding: 10px 25px 10px 25px;
-    }
-    #background{
-        height: 850px;
-    }
-    
-}
-@media only screen and (max-height: 760px) {
-    .images{
-        top: 54%;
-    }
-    #github{
-        top: 45%;
-    }
-    .textcontainer{
-        text-align: left;
-    }
-    .text{
-        font-size: 1.8rem;
     }
     
 }
@@ -249,4 +228,3 @@ body{
 ::-webkit-scrollbar-thumb:hover{
     background: #19bb4a;
 }
-
