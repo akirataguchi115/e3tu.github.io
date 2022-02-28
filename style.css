@@ -206,13 +206,13 @@ body{
         padding: 10px 25px 10px 25px;
     }
     #background{
-        height: 800px;
+        height: 850px;
     }
     
 }
-@media only screen and (max-height: 800px) {
+@media only screen and (max-height: 740px) {
     .images{
-        top: 69%;
+        top: 78%;
     }
     #github{
         top: 45%;
