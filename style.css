@@ -185,18 +185,13 @@ body{
     width: 100%;
 }
 @media only screen and (max-width : 600px) {
-    .logo{
-        display: none;
-    }
     .topbar ul{
-        left: 0.5%;
-    }
-    .topbar a{
-        font-size: 1.2rem;
+        display: none;
+        align-items: center;
     }
     .textcontainer{
         left: 10%;
-        top: 10%;
+        top: 6%;
     }
     .images{
         font-size: 6rem;
@@ -204,10 +199,14 @@ body{
     }
     .backgroundtext{
         font-size: 1rem;
+        top: 25%;
     }
     #github{
-        top: 52%;
+        top: 47%;
         padding: 10px 25px 10px 25px;
+    }
+    #background{
+        height: 800px;
     }
     
 }
@@ -216,7 +215,7 @@ body{
         top: 69%;
     }
     #github{
-        top: 50%;
+        top: 45%;
     }
     
 }
