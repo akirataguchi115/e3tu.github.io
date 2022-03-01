@@ -181,9 +181,6 @@ body{
     width: 100%;
 }
 @media only screen and (max-width : 600px) {
-    .logo{
-        display: none;
-    }
     .topbar ul{
         left: 0.5%;
         display: none;
