@@ -106,7 +106,7 @@ body{
 }
 .aboutme{
     position: relative;
-    height: 1000px;
+    height: 92vh;
     width: 100%;
 }
 .header{
@@ -148,7 +148,7 @@ body{
 }
 .projects{
     position: relative;
-    height: 1000px;
+    height: 92vh;
     width: 100%;
 }
 .header2{
@@ -167,7 +167,7 @@ body{
     position: relative;
     color: #fff;
     font-size: 4rem;
-    top: 5%;
+    top: 2%;
     text-align: center;
     padding-left: 20px;
 }
@@ -177,7 +177,7 @@ body{
 }
 .contact{
     position: relative;
-    height: 500px;
+    height: 92vh;
     width: 100%;
 }
 @media only screen and (max-width : 600px) {
@@ -200,7 +200,7 @@ body{
         text-align: left;
     }
     .text i{
-        font-size: 3rem;
+        font-size: 5rem;
     }
     .backgroundtext{
         font-size: 1rem;
